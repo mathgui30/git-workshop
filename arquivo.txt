@@ -1,2 +1,6 @@
 linha base
+
 mudança B
+
+mudança A
+
