@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-linha A
-=======
-linha B
->>>>>>> feature-b
+linha 1
