@@ -1,0 +1,32 @@
+Script started on 2025-08-07 21:53:26-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="144" LINES="37"]
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+[?2004h]0;matheus@Nhircele: /mnt/c/Users/Matheus/git-workshop[01;32mmatheus@Nhircele[00m:[01;34m/mnt/c/Users/Matheus/git-workshop[00m$ git branch
+[?2004l[?1h=  branch-v1.1[m[m
+  branch1[m[m
+  branch2[m[m
+  branch3[m[m
+  develop[m[m
+  feat/cadastro-usuario[m[m
+  feature[m[m
+  feature-123[m[m
+  feature-456[m[m
+  feature-a[m[m
+  feature-b[m[m
+  master[m[m
+  prod[m[m
+* [32mrelease/1.0.0[m[m
+  test[m[m
+  test-reset[m[m
+  test_hard[m[m
+  test_revert[m[m
+[K[?1l>[?2004h]0;matheus@Nhircele: /mnt/c/Users/Matheus/git-workshop[01;32mmatheus@Nhircele[00m:[01;34m/mnt/c/Users/Matheus/git-workshop[00m$ git checkout develop
+[?2004lSwitched to branch 'develop'
+[?2004h]0;matheus@Nhircele: /mnt/c/Users/Matheus/git-workshop[01;32mmatheus@Nhircele[00m:[01;34m/mnt/c/Users/Matheus/git-workshop[00m$ git pull origin develop
+[?2004lFrom https://github.com/mathgui30/git-workshop
+ * branch            develop    -> FETCH_HEAD
+Already up to date.
+[?2004h]0;matheus@Nhircele: /mnt/c/Users/Matheus/git-workshop[01;32mmatheus@Nhircele[00m:[01;34m/mnt/c/Users/Matheus/git-workshop[00m$ git checkout -b release [K/1.5[K4.0
+[?2004lSwitched to a new branch 'release/1.4.0'
+[?2004h]0;matheus@Nhircele: /mnt/c/Users/Matheus/git-wo
