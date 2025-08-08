@@ -1,0 +1,51 @@
+Script started on 2025-08-08 20:00:29-03:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="144" LINES="37"]
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+[?2004h]0;matheus@Nhircele: /mnt/c/Users/Matheus/git-workshop[01;32mmatheus@Nhircele[00m:[01;34m/mnt/c/Users/Matheus/git-workshop[00m$ git branch
+[?2004l[?1h=  branch-v1.1[m[m
+  branch1[m[m
+  branch2[m[m
+  branch3[m[m
+  bugfix/1.4.0[m[m
+  develop[m[m
+  feat/cadastro[m[m
+  feat/cadastro-usuario[m[m
+  feat/correcao-usuario[m[m
+  feature[m[m
+  feature-123[m[m
+  feature-456[m[m
+  feature-a[m[m
+  feature-b[m[m
+  fix/correcao-develop[m[m
+  master[m[m
+  prod[m[m
+  release/1.0.0[m[m
+* [32mrelease/1.1.0[m[m
+  release/1.4.0[m[m
+  test[m[m
+  test-reset[m[m
+  test_hard[m[m
+  test_revert[m[m
+[K[?1l>[?2004h]0;matheus@Nhircele: /mnt/c/Users/Matheus/git-workshop[01;32mmatheus@Nhircele[00m:[01;34m/mnt/c/Users/Matheus/git-workshop[00m$ it[K[Kgit checkout v1.10[K.0
+[?2004lNote: switching to 'v1.1.0'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 601aae0 release: ajustes finais
+[?2004h]0;matheus@Nhircele: /mnt/c/Users/Matheus/git-workshop[01;32mmatheus@Nhircele[00m:[01;34m/mnt/c/Users/Matheus/git-workshop[00m$ git switch -c hotfix/1.1.0
+[?2004lSwitched to a new branch 'hotfix/1.1.0'
+[?2004h]0;matheus@Nhircele: /mnt/c/Users/Matheus/git-workshop[01;32mmatheus@Nhircele[00m:[01;34m/mnt/c/Users/Matheus/git-wo
