@@ -1,0 +1,58 @@
+Script started on 2025-08-07 21:53:26-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="144" LINES="37"]
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+[?2004h]0;matheus@Nhircele: /mnt/c/Users/Matheus/git-workshop[01;32mmatheus@Nhircele[00m:[01;34m/mnt/c/Users/Matheus/git-workshop[00m$ git branch
+[?2004l[?1h=  branch-v1.1[m[m
+  branch1[m[m
+  branch2[m[m
+  branch3[m[m
+  develop[m[m
+  feat/cadastro-usuario[m[m
+  feature[m[m
+  feature-123[m[m
+  feature-456[m[m
+  feature-a[m[m
+  feature-b[m[m
+  master[m[m
+  prod[m[m
+* [32mrelease/1.0.0[m[m
+  test[m[m
+  test-reset[m[m
+  test_hard[m[m
+  test_revert[m[m
+[K[?1l>[?2004h]0;matheus@Nhircele: /mnt/c/Users/Matheus/git-workshop[01;32mmatheus@Nhircele[00m:[01;34m/mnt/c/Users/Matheus/git-workshop[00m$ git checkout develop
+[?2004lSwitched to branch 'develop'
+[?2004h]0;matheus@Nhircele: /mnt/c/Users/Matheus/git-workshop[01;32mmatheus@Nhircele[00m:[01;34m/mnt/c/Users/Matheus/git-workshop[00m$ git pull origin develop
+[?2004lFrom https://github.com/mathgui30/git-workshop
+ * branch            develop    -> FETCH_HEAD
+Already up to date.
+[?2004h]0;matheus@Nhircele: /mnt/c/Users/Matheus/git-workshop[01;32mmatheus@Nhircele[00m:[01;34m/mnt/c/Users/Matheus/git-workshop[00m$ git checkout -b release [K/1.5[K4.0
+[?2004lSwitched to a new branch 'release/1.4.0'
+[?2004h]0;matheus@Nhircele: /mnt/c/Users/Matheus/git-workshop[01;32mmatheus@Nhircele[00m:[01;34m/mnt/c/Users/Matheus/git-workshop[00m$ echo ![K""v"e"r"s"ã"o" "1"."4"."0"[C > versao;.[K[K.txt
+[?2004l[?2004h]0;matheus@Nhircele: /mnt/c/Users/Matheus/git-workshop[01;32mmatheus@Nhircele[00m:[01;34m/mnt/c/Users/Matheus/git-workshop[00m$ git add . %% [K[K[K&& git commit -m ""r"e"l"e"a"s"e":" "a"j"u"s"t"e"s" "f"i"n"a"i"s"
+[?2004lgrep: *.py: No such file or directory
+[release/1.4.0 a043b05] release: ajustes finais
+ 2 files changed, 33 insertions(+)
+ create mode 100644 lab4-release-bugfix
+ create mode 100644 versao.txt
+[?2004h]0;matheus@Nhircele: /mnt/c/Users/Matheus/git-workshop[01;32mmatheus@Nhircele[00m:[01;34m/mnt/c/Users/Matheus/git-workshop[00m$ git psuh o[K[K[K[K[Kush origin release/1.4.0
+[?2004lUsername for 'https://github.com': mathgui30
+Password for 'https://mathgui30@github.com': 
+Enumerating objects: 5, done.
+Counting objects:  20% (1/5)Counting objects:  40% (2/5)Counting objects:  60% (3/5)Counting objects:  80% (4/5)Counting objects: 100% (5/5)Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects:  33% (1/3)Compressing objects:  66% (2/3)Compressing objects: 100% (3/3)Compressing objects: 100% (3/3), done.
+Writing objects:  25% (1/4)Writing objects:  50% (2/4)Writing objects:  75% (3/4)Writing objects: 100% (4/4)Writing objects: 100% (4/4), 886 bytes | 18.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+remote: 
+remote: Create a pull request for 'release/1.4.0' on GitHub by visiting:[K
+remote:      https://github.com/mathgui30/git-workshop/pull/new/release/1.4.0[K
+remote: 
+To https://github.com/mathgui30/git-workshop.git
+ * [new branch]      release/1.4.0 -> release/1.4.0
+[?2004h]0;matheus@Nhircele: /mnt/c/Users/Matheus/git-workshop[01;32mmatheus@Nhircele[00m:[01;34m/mnt/c/Users/Matheus/git-workshop[00m$ git ceh[K[Khce[K[Keckout -b bugfx[Kix/1.4.0
+[?2004lSwitched to a new branch 'bugfix/1.4.0'
+[?2004h]0;matheus@Nhircele: /mnt/c/Users/Matheus/git-workshop[01;32mmatheus@Nhircele[00m:[01;34m/mnt/c/Users/Matheus/git-workshop[00m$ echo !![K[K""v"e"[1P"a"l"i"d"a"n"d"o" "n"o"m"e" "d"o" "u"s"u"á"r"i"o" "[1P"[C >> cadastro.txt
+[?2004l[?2004h]0;matheus@Nhircele: /mn
